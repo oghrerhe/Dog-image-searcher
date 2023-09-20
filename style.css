@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#breed-input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#result-container {
+  text-align: center;
+}
+
+/* Add more styles as needed */
+@media screen and (min-width: 600px) {
+  main {
+      max-width: 800px;
+      margin: 0 auto;
+  }
+}
